@@ -1,0 +1,37 @@
+@import "tailwindcss";
+
+:root {
+  --color-background: #0E0D13;
+}
+
+.pagination {
+  display: flex;
+  gap: 0.5rem;
+  flex-wrap: wrap;
+  list-style: none;
+  padding: 0;
+}
+
+.page-item {
+  border: 1px solid #444;
+  padding: 6px 8px;
+  cursor: pointer;
+  color: white;
+  background-color: #1e1e2f;
+  border-radius: 4px;
+  transition: 0.2s;
+}
+
+.page-item:hover {
+  background-color: #2a283e;
+}
+
+.page-link {
+  text-decoration: none;
+}
+
+.active {
+  background-color: white;
+  color: black;
+  font-weight: bold;
+}
